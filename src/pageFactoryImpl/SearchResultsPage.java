@@ -12,7 +12,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class SearchResultsPage {
 
     WebDriver driver;
-
+    
+    //Changes done by user 2 ...
     public SearchResultsPage(WebDriver driver) {
         this.driver = driver;
     }

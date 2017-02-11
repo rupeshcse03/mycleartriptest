@@ -1,0 +1,29 @@
+This is a pre-recorded test mostly generated through selenium IDE.
+
+And following is the scenario it covers:
+
+Given the user is on cleartrip home page
+When he searches with details for a one-way journey
+Then he should get the outbound journey options
+
+The @Test annotation signifies that the the method under consideration is a test method and can be run using TestNG
+test framework.
+
+We have just recorded one small ticket search flow using the Selenium IDE and pasted the generated code in here.
+
+There are non-deterministic hard coded wait put in the tests to take care of the following:
+    1. The autocomplete options to appear when the user starts typing the origin or destination city name.
+    2. To ensure that the test waits for the result page to appear. While writing the test we noticed that the pageLoad
+    on search button click was a little inconsistent and the test kept failing randomly.
+
+Problem with the tests at this point:
+    1. Non-readable test. It's really hard for anybody to read and understand the intent of the test.
+    2. Hard coded wait statements. Almost always a point of failure.
+    3. The test data is hard coded in the test.
+    4. Driver is tightly bound to this test. When we want to write more and more test, the same driver needs to be
+        available to all those tests.
+
+
+Suggested Reading:TestNG Annotations
+
+"Testing Commits to github "

@@ -19,17 +19,14 @@ public class FlightsSearchPage {
     /*@FindBy(id = "one_way")
     private WebElement oneWayJourneySelection;*/
     
-    //new changes .... //RR
-    //new changes .... //RR
-    
-    //Pata nhi kya hoga ...
-    
+     
     @FindBy(id = "one_way")
     private WebElement oneWayJourneySelection;	//RR
 
     @FindBy(id = "rnd_trip")
     private WebElement returnTripJourneySelection;
 
+    //Changed in remote ...
     @FindBy(id = "dpt_date")
     private WebElement departureDateField;
 

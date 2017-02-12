@@ -18,7 +18,7 @@ public class LandingPage {
     }
 
 
-
+    //goToFlightsSearchPage 	//RR
     public FlightsSearchPage goToFlightsSearchPage() {
         flightsPageLink.click();
         FlightsSearchPage flightsSearchPage = PageFactory.initElements(driver, FlightsSearchPage.class);

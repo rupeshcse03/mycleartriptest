@@ -19,6 +19,8 @@ public class FlightsSearchPage {
     /*@FindBy(id = "one_way")
     private WebElement oneWayJourneySelection;*/
     
+    //new changes .... //RR
+    
     @FindBy(id = "one_way")
     private WebElement oneWayJourneySelection;	//RR
 

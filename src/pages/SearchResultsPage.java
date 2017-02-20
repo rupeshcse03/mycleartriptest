@@ -24,6 +24,12 @@ public class SearchResultsPage {
         waitForSearchResultsToAppear();
         return isElementPresent(By.id("return"));
     }
+    
+    //RR1 ....
+    public boolean resultsAppearForInboundJourney1() {
+        waitForSearchResultsToAppear();
+        return isElementPresent(By.id("return"));
+    }
 
     public boolean resultsAppearForOutboundJourney() {
         waitForSearchResultsToAppear();

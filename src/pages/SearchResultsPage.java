@@ -12,7 +12,7 @@ import util.WaitFor;
  * Time: 10:43 AM
  * To change this template use File | Settings | File Templates.
  */
-public class SearchResultsPage {
+public class SearchResultsPage222 {
 
     WebDriver driver;
 

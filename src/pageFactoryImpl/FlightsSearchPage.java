@@ -16,12 +16,17 @@ import java.util.concurrent.TimeUnit;
 public class FlightsSearchPage {
     WebDriver driver;
 
+    /*@FindBy(id = "one_way")
+    private WebElement oneWayJourneySelection;*/
+    
+     
     @FindBy(id = "one_way")
-    private WebElement oneWayJourneySelection;
+    private WebElement oneWayJourneySelection;	//RR
 
     @FindBy(id = "rnd_trip")
     private WebElement returnTripJourneySelection;
 
+    //Changed in remote ...
     @FindBy(id = "dpt_date")
     private WebElement departureDateField;
 

@@ -1,5 +1,7 @@
 This is a pre-recorded test mostly generated through selenium IDE.
 
+//RR1 ................
+
 And following is the scenario it covers:
 
 Given the user is on cleartrip home page
